@@ -1,0 +1,51 @@
+.unsplash-body {
+  margin: 0;
+
+  font-family: 
+    -apple-system, 
+    BlinkMacSystemFont, 
+    'Segoe UI', 
+    'Roboto', 
+    'Oxygen', 
+    'Ubuntu', 
+    'Cantarell', 
+    'Fira Sans', 
+    'Droid Sans', 
+    'Helvetica Neue', 
+    sans-serif;
+}
+
+.unsplash-main-div {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.unsplash-canvas-img {
+  height: 75vh;
+}
+
+.unsplash-actions-div {
+  height: 25vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  div {
+    margin-top: 1vh;
+    font-size: 3vh;
+
+    input {
+      height: 4vh;
+      width: 5vw;
+      font-size: 2.5vh;
+    }
+  }
+}
+
+#userName {
+  font-style: italic;
+}
